@@ -58,7 +58,20 @@ li,
 li a {
     list-style: none;
     text-decoration: none;
-    color: #000000;
+    color: #828282;
+    font-weight: 500;
+    transition: 0.15s ease-in;
+}
+
+li:hover{
+    transform: scale(1.05);
+}
+
+li a:hover {
+    color: #00ADED;
+    transition: 0.15s ease-out;
+    cursor: pointer;
+    font-weight: 800;
 }
 
 /* -------------------------- END Header -------------------------- */
@@ -102,7 +115,7 @@ li a {
 /* -------------------------- SERVICES SECTION -------------------------- */
 
 .container_services {
-    
+
 }
 
 .como_trabalhamos {
