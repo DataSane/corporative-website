@@ -1,7 +1,134 @@
-div{
+/* div{
     height: 80px;
     width: 80px;
     background-color: gray;
     margin-bottom: 10px;
     color: #FFF;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    height: 3.6rem;
+    display: flex;
+    flex-direction: row;
+}
+
+/* -------------------------- Header -------------------------- */
+
+.logo_header {
+    display: flex;
+    align-items: center;
+    padding-left: 10.4rem;
+    padding-top: 0.35rem;
+    width: 3.4rem;
+    height: 2.8rem;
+}
+
+.logo_header img {
+    height: 100%;
+    width: 100%;
+}
+
+.options_header {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 37.25rem;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    height: 100%;
+}
+
+ul {
+    width: 32rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3.62rem;
+}
+
+li,
+li a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* -------------------------- END Header -------------------------- */
+
+/* -------------------------- MAIN -------------------------- */
+.box_textMain {
+    background-image: url(../assets/backgroundMain.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 92.3vh;
+    color: white;
+}
+
+.title_main {
+    padding-top: 12.75rem;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.50);
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 5.625rem;
+}
+
+.paragraph_main {
+    height: 5.45rem;
+    color: #FFF;
+    text-align: center;
+    margin-top: 3.12rem;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.50);
+    font-family: Lato;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* -------------------------- END MAIN -------------------------- */
+
+/* -------------------------- SERVICES SECTION -------------------------- */
+
+.container_services {
+    
+}
+
+.como_trabalhamos {
+
+    color: var(--Primary, #757575);
+
+    /* H6 */
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.07438rem;
+    text-transform: uppercase;
+}
+
+.nosso_servicos {
+    width: 40.9375rem;
+    color: var(--Heading-Color, #1B1717);
+
+    /* H2 */
+    font-family: Poppins;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.19688rem;
+    text-transform: uppercase;
 }
