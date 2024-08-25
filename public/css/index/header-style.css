@@ -17,9 +17,11 @@
 .logo-wrapper{
     height: 100%;
     width: 170px;
+    display: flex;
+    align-items: center;
 }
 .logo-wrapper > img{
-    height: 100%;
+    height: 90%;
 }
 .nav-list{
     display: flex;
@@ -36,6 +38,9 @@
 }
 .nav-link.on, .nav-link:hover{
     color: #00ADED;
+}
+.nav-link:hover{
+    transform: scale(0.95);
 }
 .nav-list:nth-child(5){
     height: 40px;
