@@ -15,9 +15,11 @@
     align-items: center;
 }
 .logo-wrapper{
-    background-color: rgb(255, 8, 49);
     height: 100%;
-    width: 150px;
+    width: 170px;
+}
+.logo-wrapper > img{
+    height: 100%;
 }
 .nav-list{
     display: flex;
@@ -45,6 +47,7 @@
     color: #FFF;
     padding: 9px 27px;
     background-color: #00ADED;
+    border-radius: 3px;
 }
 .nav-list:nth-child(5) > .nav-link:hover{
     background-color: #007fad;
