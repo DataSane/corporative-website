@@ -63,7 +63,7 @@ li a {
     transition: 0.15s ease-in;
 }
 
-li:hover{
+li:hover {
     transform: scale(1.05);
 }
 
@@ -84,13 +84,15 @@ li a:hover {
     background-repeat: no-repeat;
     width: 100%;
     height: 92.3vh;
-    color: white;
+    color: #FFFFFF;
 }
 
 .title_main {
+    overflow-y: hidden;
     padding-top: 12.75rem;
     color: #FFFFFF;
     text-align: center;
+    font-family: Lato;
     text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.50);
     font-size: 5rem;
     font-weight: 700;
@@ -99,49 +101,256 @@ li a:hover {
 
 .paragraph_main {
     height: 5.45rem;
-    color: #FFF;
+    color: #FFFFFF;
     text-align: center;
     margin-top: 3.12rem;
     text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.50);
     font-family: Lato;
     font-size: 1.5rem;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 /* -------------------------- END MAIN -------------------------- */
 
 /* -------------------------- SERVICES SECTION -------------------------- */
 
-.container_services {
-
+.container_itensServices {
+    display: flex;
+    flex-direction: row;
 }
 
 .como_trabalhamos {
-
-    color: var(--Primary, #757575);
-
-    /* H6 */
+    padding-top: 5.58rem;
+    padding-left: 2.75rem;
+    color: #757575;
     font-family: Poppins;
     font-size: 1.0625rem;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
-    letter-spacing: 0.07438rem;
-    text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 
-.nosso_servicos {
+.nossos_servicos {
     width: 40.9375rem;
-    color: var(--Heading-Color, #1B1717);
-
-    /* H2 */
+    padding-left: 2.75rem;
+    color: #1B1717;
     font-family: Poppins;
     font-size: 2.8125rem;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    letter-spacing: 0.19688rem;
-    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 0.2rem;
 }
+
+/* INSIGHTS */
+.icon_insights {
+    width: 4.125rem;
+    padding-left: 4.6rem;
+    padding-top: 5.7rem;
+}
+
+.box_insights h3 {
+    color: #1B1717;
+    width: 26.5rem;
+    padding-left: 4.6rem;
+    padding-top: 1.45rem;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.12rem;
+}
+
+.box_insights {
+    overflow-y: hidden;
+    width: 27.5rem;
+    margin-top: 4rem;
+    height: 19.5rem;
+}
+
+.box_insights:hover {
+    background-color: #00ADED;
+}
+
+.box_insights p {
+    color: #6E6E6E;
+    padding-left: 4.6rem;
+    padding-top: 0.93rem;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+/* MAPA DE CALOR */
+.box_mapaCalor {
+    background-color: #00ADED;
+    padding-left: 1rem;
+    width: 27.5rem;
+    margin-top: 4rem;
+    height: 19.5rem;
+}
+
+.icon_mapaCalor {
+    padding-top: 0.87rem;
+}
+
+.box_mapaCalor h3 {
+    color: #FFFFFF;
+    padding-top: 1.45rem;
+    padding-left: 1.8rem;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+}
+
+.box_mapaCalor p {
+    color: #FFFFFF;
+    padding-top: 0.93rem;
+    padding-left: 1.8rem;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-weight: 400;
+}
+
+/* RELATÓRIOS */
+.box_relatorios {
+    padding-left: 6rem;
+    width: 27.5rem;
+    margin-top: 4rem;
+    height: 19.5rem;
+}
+
+.icon_relatorios {
+    padding-top: 0.87rem;
+}
+
+.box_relatorios h3 {
+    color: #1B1717;
+    letter-spacing: 0.2rem;
+    padding-top: 1.45rem;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+}
+
+.box_relatorios p {
+    color: #6E6E6E;
+    padding-top: 1rem;
+    font-family: Poppins;
+    font-size: 1.06rem;
+    font-weight: 400;
+}
+
+/* -------------------------- END SERVICES SECTION -------------------------- */
+
+/* -------------------------- SOBRE NÓS -------------------------- */
+.container_sobreNos {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3.5rem;
+}
+
+.image_sanitation {
+    background-color: #C2C2C2;
+    margin: 0rem 1.88rem 3.12rem 3.9rem;
+    /* margin-bottom: 3.12rem; */
+    width: 40.9rem;
+    height: 28.3rem;
+}
+
+.nosso_proposito {
+    padding-top: 1.88rem;
+    color: #757575;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+}
+
+.title_sobreNos {
+    width: 40.9375rem;
+    color: #1B1717;
+    font-family: Poppins;
+    font-size: 2.8125rem;
+    font-weight: 1000;
+    letter-spacing: 0.049rem;
+}
+
+.paragraph_sobreNos {
+    color: #6E6E6E;
+    padding-top: 0.94rem;
+    padding-bottom: 3.12rem;
+    font-family: Poppins;
+    font-size: 1.06rem;
+    font-weight: 400;
+}
+
+/* -------------------------- END SOBRE NÓS -------------------------- */
+
+/* -------------------------- THREE TITLES -------------------------- */
+.container_threeTitles {
+    display: flex;
+    flex-direction: row;
+}
+
+.container_threeTitles h4 {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+}
+
+.box_inovacaoSustentavel {
+    background-color: #21A2D1;
+    padding-top: 5rem;
+    padding-left: 1.94rem;
+    width: 27.96019rem;
+    height: 18.5rem;
+    margin-left: 3rem;
+}
+
+.box_inovacaoSustentavel p {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    padding-top: 0.94rem;
+    padding-bottom: 6.06rem;
+}
+
+.box_precisaoConfiabilidade {
+    background-color: #47BFEB;
+    padding-top: 5rem;
+    padding-left: 1.94rem;
+    width: 27.96019rem;
+    height: 18.5rem;
+}
+
+.box_precisaoConfiabilidade p {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    padding-top: 0.94rem;
+    padding-bottom: 6.06rem;
+}
+
+.box_responsabilidadeSocial {
+    background-color: #21A2D1;
+    padding-top: 5rem;
+    padding-left: 1.94rem;
+    width: 27.96019rem;
+    height: 18.5rem;
+}
+
+.box_responsabilidadeSocial p {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    padding-top: 0.94rem;
+    padding-bottom: 6.06rem;
+}
+
+
+/* -------------------------- END THREE TITLES -------------------------- */
