@@ -78,7 +78,7 @@ li a:hover {
 
 /* -------------------------- MAIN -------------------------- */
 .box_textMain {
-    background-image: url(../assets/backgroundMain.png);
+    background-image: url(./assets/backgroundMain.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -301,6 +301,7 @@ li a:hover {
 }
 
 .box_inovacaoSustentavel {
+    overflow-y: hidden;
     background-color: #21A2D1;
     padding-top: 5rem;
     padding-left: 1.94rem;
@@ -319,6 +320,7 @@ li a:hover {
 }
 
 .box_precisaoConfiabilidade {
+    overflow-y: hidden;
     background-color: #47BFEB;
     padding-top: 5rem;
     padding-left: 1.94rem;
@@ -336,6 +338,7 @@ li a:hover {
 }
 
 .box_responsabilidadeSocial {
+    overflow-y: hidden;
     background-color: #21A2D1;
     padding-top: 5rem;
     padding-left: 1.94rem;
@@ -354,3 +357,133 @@ li a:hover {
 
 
 /* -------------------------- END THREE TITLES -------------------------- */
+
+/* -------------------------- PROTEJA SUA COMUNIDADE -------------------------- */
+.container_protejaSuaComunidade {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3.5rem;
+    margin-left: 3.94rem;
+}
+
+.evite_problemas {
+    margin-top: 17.19rem;
+    margin-left: 3.94rem;
+    margin-bottom: 0.94rem;
+    color: #757575;
+    font-family: Poppins;
+    font-size: 1.06rem;
+    font-weight: 900;
+    letter-spacing: 0.045rem;
+}
+
+.title_protejaSuaComunidade {
+    margin-left: 3.94rem;
+    margin-bottom: 0.81rem;
+    color: #1B1717;
+    width: 40.9375rem;
+    font-family: Poppins;
+    font-size: 2.8125rem;
+    font-weight: 1000;
+    letter-spacing: 0.049rem;
+}
+
+.paragraph_protejaSuaComunidade {
+    margin-left: 3.94rem;
+    margin-bottom: 1.38rem;
+    color: #6E6E6E;
+    font-family: Poppins;
+    font-size: 1.06rem;
+    font-weight: 400;
+}
+
+.button_comecar {
+    background-color: #21A2D1;
+    color: #FFFFFF;
+    font-weight: 550;
+    letter-spacing: 0.09rem;
+    text-align: center;
+    border: none;
+    border-radius: 1.05rem 0.1rem;
+    margin-left: 3.94rem;
+    width: 11.375rem;
+    height: 4.5625rem;
+    transition: 0.2s ease-in;
+}
+
+.button_comecar:hover {
+    cursor: pointer;
+    transition: 0.18s ease-out;
+    transform: scale(1.03);
+    background-color: #00aeedd1;
+    border-radius: 0.1rem 0.9rem;
+}
+
+.top_img {
+    position: relative;
+    background-color: #808080;
+    margin-left: 7.12rem;
+    margin-top: 6.25rem;
+    width: 33.8125rem;
+    height: 21.875rem;
+}
+
+.center_img {
+    position: relative;
+    bottom: 9.79rem;
+    background-color: #00ADED;
+    width: 33.8125rem;
+    height: 21.875rem;
+    z-index: 1;
+}
+
+.bottom_img {
+    position: relative;
+    bottom: 17.96rem;
+    background-color: #808080;
+    margin-left: 7.12rem;
+    width: 33.8125rem;
+    height: 21.875rem;
+}
+
+/* -------------------------- END PROTEJA SUA COMUNIDADE -------------------------- */
+
+/* -------------------------- ELES CONFIAM NA GENTE -------------------------- */
+
+.container_elesConfiam {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title_elesConfiam {
+    color: #1B1717;
+    font-family: Poppins;
+    font-size: 3.1rem;
+    font-weight: 1000;
+    letter-spacing: 0.19rem;
+}
+
+.box_companiesLogo {
+    display: flex;
+    flex-direction: row;
+    /* gap: 1rem; */
+}
+
+.itau {
+    padding-top: 1.5rem;
+}
+
+.stefanini {
+    padding-top: 0.81rem;
+}
+
+.minsait {
+    padding-top: 0.81rem;
+}
+
+.v8_tech {
+
+}
+
+/* -------------------------- END ELES CONFIAM NA GENTE -------------------------- */
