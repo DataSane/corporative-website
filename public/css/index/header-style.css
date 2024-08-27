@@ -58,3 +58,30 @@
 .nav-list:nth-child(5) > .nav-link:hover{
     background-color: #007fad;
 }
+
+ /*  responsivididade */
+
+.btnMob-wrapper{
+    display: none;
+}
+
+@media(max-width: 995px){
+    .btnMob-wrapper{
+        display: flex;
+    }
+    .nav-bar{
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        background-color: #FFF;
+        padding-bottom: 30px;
+        right: -100%;
+    }
+    .nav-bar > .nav-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-bar.active{
+        right: 0;
+    }
+}
