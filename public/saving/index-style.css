@@ -1,15 +1,11 @@
-/* div{
-    height: 80px;
-    width: 80px;
-    background-color: gray;
-    margin-bottom: 10px;
-    color: #FFF;
-} */
-
 * {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+}
+
+body {
+    width: 100%;
 }
 
 header {
@@ -114,14 +110,19 @@ li a:hover {
 
 /* -------------------------- SERVICES SECTION -------------------------- */
 
+.container_services {
+    padding-left: 5.75rem;
+}
+
 .container_itensServices {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
 }
 
 .como_trabalhamos {
     padding-top: 5.58rem;
-    padding-left: 2.75rem;
     color: #757575;
     font-family: Poppins;
     font-size: 1.0625rem;
@@ -130,8 +131,7 @@ li a:hover {
 }
 
 .nossos_servicos {
-    width: 40.9375rem;
-    padding-left: 2.75rem;
+    width: 40.9rem;
     color: #1B1717;
     font-family: Poppins;
     font-size: 2.8125rem;
@@ -141,15 +141,13 @@ li a:hover {
 
 /* INSIGHTS */
 .icon_insights {
-    width: 4.125rem;
-    padding-left: 4.6rem;
-    padding-top: 5.7rem;
+    width: 3.9rem;
+    padding-top: 0.97rem;
 }
 
 .box_insights h3 {
     color: #1B1717;
     width: 26.5rem;
-    padding-left: 4.6rem;
     padding-top: 1.45rem;
     font-family: Poppins;
     font-size: 1.5rem;
@@ -159,7 +157,8 @@ li a:hover {
 
 .box_insights {
     overflow-y: hidden;
-    width: 27.5rem;
+    padding-left: 4.6rem;
+    width: 30.5rem;
     margin-top: 4rem;
     height: 19.5rem;
 }
@@ -170,8 +169,7 @@ li a:hover {
 
 .box_insights p {
     color: #6E6E6E;
-    padding-left: 4.6rem;
-    padding-top: 0.93rem;
+    padding-top: 1rem;
     font-family: Poppins;
     font-size: 1rem;
     font-weight: 400;
@@ -181,14 +179,15 @@ li a:hover {
 /* MAPA DE CALOR */
 .box_mapaCalor {
     background-color: #00ADED;
-    padding-left: 1rem;
-    width: 27.5rem;
+    padding-left: 4.6rem;
+    width: 30.5rem;
     margin-top: 4rem;
     height: 19.5rem;
 }
 
 .icon_mapaCalor {
     padding-top: 0.87rem;
+    padding-left: 0.5rem;
 }
 
 .box_mapaCalor h3 {
@@ -212,9 +211,10 @@ li a:hover {
 
 /* RELATÓRIOS */
 .box_relatorios {
-    padding-left: 6rem;
-    width: 27.5rem;
+    padding-left: 4.6rem;
+    width: 30.5rem;
     margin-top: 4rem;
+    align-items: center;
     height: 19.5rem;
 }
 
@@ -467,7 +467,7 @@ li a:hover {
 .box_companiesLogo {
     display: flex;
     flex-direction: row;
-    /* gap: 1rem; */
+    gap: 5rem;
 }
 
 .itau {
@@ -483,7 +483,79 @@ li a:hover {
 }
 
 .v8_tech {
+    padding-top: 2.1rem;
+}
 
+.saoPaulo {
+    padding-top: 2.1rem;
 }
 
 /* -------------------------- END ELES CONFIAM NA GENTE -------------------------- */
+
+/* -------------------------- VAMOS CONVERSAR -------------------------- */
+.container_vamosConversar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10.62rem;
+    gap: 7.75rem;
+}
+
+.vamosConversar {
+    margin-left: 3.94rem;
+}
+
+.title_vamosConversar {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.paragraph_vamosConversar {
+    padding-top: 1.25rem;
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.formulario_vamosConversar p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 0.94rem;
+}
+
+#id_email,
+#id_assunto,
+#id_message {
+    padding-top: 1.75rem;
+}
+
+#input_nome,
+#input_email,
+#input_assunto {
+    width: 38.1rem;
+    height: 2.875rem;
+}
+
+#input_message {
+    width: 38.1rem;
+    height: 10.3125rem;
+    align-self: stretch;
+}
+
+.container_buttonEnviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_enviar {
+    margin-top: 1.75rem;
+    gap: 0.625rem;
+    align-self: stretch;
+}
+
+/* -------------------------- END VAMOS CONVERSAR -------------------------- */
