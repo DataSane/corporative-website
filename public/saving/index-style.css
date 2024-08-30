@@ -6,6 +6,7 @@
 
 body {
     width: 100%;
+    /* height: 30rem; */
 }
 
 header {
@@ -111,7 +112,10 @@ li a:hover {
 /* -------------------------- SERVICES SECTION -------------------------- */
 
 .container_services {
-    padding-left: 5.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container_itensServices {
@@ -123,6 +127,7 @@ li a:hover {
 
 .como_trabalhamos {
     padding-top: 5.58rem;
+    margin-right: 70rem;
     color: #757575;
     font-family: Poppins;
     font-size: 1.0625rem;
@@ -131,6 +136,8 @@ li a:hover {
 }
 
 .nossos_servicos {
+    padding-top: 0.94rem;
+    margin-right: 43.5rem;
     width: 40.9rem;
     color: #1B1717;
     font-family: Poppins;
@@ -163,10 +170,6 @@ li a:hover {
     height: 19.5rem;
 }
 
-.box_insights:hover {
-    background-color: #00ADED;
-}
-
 .box_insights p {
     color: #6E6E6E;
     padding-top: 1rem;
@@ -179,7 +182,7 @@ li a:hover {
 /* MAPA DE CALOR */
 .box_mapaCalor {
     background-color: #00ADED;
-    padding-left: 4.6rem;
+    padding-left: 1.6rem;
     width: 30.5rem;
     margin-top: 4rem;
     height: 19.5rem;
@@ -245,6 +248,7 @@ li a:hover {
 /* -------------------------- SOBRE NÓS -------------------------- */
 .container_sobreNos {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     padding-top: 3.5rem;
 }
@@ -252,7 +256,6 @@ li a:hover {
 .image_sanitation {
     background-color: #C2C2C2;
     margin: 0rem 1.88rem 3.12rem 3.9rem;
-    /* margin-bottom: 3.12rem; */
     width: 40.9rem;
     height: 28.3rem;
 }
@@ -290,6 +293,7 @@ li a:hover {
 .container_threeTitles {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .container_threeTitles h4 {
@@ -362,6 +366,7 @@ li a:hover {
 .container_protejaSuaComunidade {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding-top: 3.5rem;
     margin-left: 3.94rem;
 }
@@ -496,12 +501,14 @@ li a:hover {
 .container_vamosConversar {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-top: 10.62rem;
-    gap: 7.75rem;
+    gap: 4.75rem;
 }
 
 .vamosConversar {
-    margin-left: 3.94rem;
+    /* margin-left: 2.94rem; */
+    text-align: center;
 }
 
 .title_vamosConversar {
@@ -509,18 +516,19 @@ li a:hover {
     font-family: Poppins;
     font-size: 4rem;
     font-weight: 500;
+    padding-top: 6rem;
 }
 
 .paragraph_vamosConversar {
     padding-top: 1.25rem;
-    color: #000;
+    color: #000000;
     font-family: Poppins;
     font-size: 1.25rem;
     font-weight: 400;
 }
 
 .formulario_vamosConversar p {
-    color: #000;
+    color: #000000;
     font-family: Poppins;
     font-size: 1rem;
     font-weight: 400;
@@ -536,11 +544,15 @@ li a:hover {
 #input_nome,
 #input_email,
 #input_assunto {
+    border: none;
+    background-color: #e2e2e2a6;
     width: 38.1rem;
     height: 2.875rem;
 }
 
 #input_message {
+    border: none;
+    background-color: #e2e2e2a6;
     width: 38.1rem;
     height: 10.3125rem;
     align-self: stretch;
@@ -549,13 +561,324 @@ li a:hover {
 .container_buttonEnviar {
     display: flex;
     justify-content: center;
-    align-items: center;
+    overflow-y: hidden;
 }
 
 .button_enviar {
+    background-color: #21A2D1;
+    color: #FFFFFF;
+    font-weight: 550;
+    border: none;
+    letter-spacing: 0.09rem;
+    padding: 1rem 10.375rem;
     margin-top: 1.75rem;
-    gap: 0.625rem;
-    align-self: stretch;
+    transition: 0.2s ease-in;
+}
+
+.button_enviar:hover {
+    cursor: pointer;
+    transform: scale(1.025);
+    background-color: #00aeedd1;
+    transition: 0.18s ease-out;
 }
 
 /* -------------------------- END VAMOS CONVERSAR -------------------------- */
+
+/* -------------------------- FOOTER -------------------------- */
+
+.container_footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -5.62rem;
+}
+
+.box_revolucioneSaneamento {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 16.62rem;
+    background-color: #21A2D1;
+    width: 83.75rem;
+    height: 22.125rem;
+    z-index: 2;
+}
+
+.title_revolucioneSaneamento {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 3.4rem;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    padding-top: 3.12rem;
+}
+
+.button_comecarFooter {
+    position: relative;
+    right: 27.45rem;
+    background-color: #007E95;
+    color: #FFFFFF;
+    width: 12.4rem;
+    height: 2.94rem;
+    padding-top: 1.56rem;
+    margin-top: 2.19rem;
+    text-align: center;
+    font-size: 0.9375rem;
+    font-weight: 800;
+    letter-spacing: 0.099rem;
+    border-radius: 0.9rem 0.1rem;
+    transition: 0.25s ease-out;
+}
+
+.button_comecarFooter:hover {
+    cursor: pointer;
+    transition: 0.25s ease-out;
+    transform: scale(1.03);
+    background-color: #86DFFF;
+    border-radius: 0.1rem 0.9rem;
+}
+
+.box_footer {
+    position: relative;
+    background-color: #2091BA;
+    width: 100%;
+    z-index: 1;
+    padding-top: 17.94rem;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.information {
+    width: 39.6875rem;
+    height: 20.0625rem;
+    padding-left: 4.43rem;
+}
+
+.information h4 {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.56rem;
+    font-weight: 900;
+    padding-top: 2.44rem;
+    letter-spacing: 0.10rem;
+}
+
+.information p {
+    padding-top: 1.3rem;
+    padding-bottom: 1.88rem;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.06rem;
+    font-weight: 400;
+}
+
+.box_iconInformation {
+    display: flex;
+    flex-direction: row;
+    gap: 0.94rem;
+    padding-top: 0.87rem;
+    overflow-y: hidden;
+}
+
+.icon_information {
+    transition: 0.2s ease;
+}
+
+.icon_information:hover {
+    cursor: pointer;
+    color: #71D9FF;
+    transition: 0.2s ease;
+    transform: scale(1.03);
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25.0625rem;
+    height: 20.0625rem;
+}
+
+.navegacao h4 {
+    width: 19.5625rem;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.56rem;
+    font-weight: 900;
+    padding: 2.44rem 0 0.94rem 5.5rem;
+    letter-spacing: 0.10rem;
+}
+
+.navegacao p {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.06rem;
+    font-weight: 400;
+}
+
+.box_iconArrow {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6.9rem;
+    overflow-y: hidden;
+}
+
+.icon_greenArrow {
+    display: flex;
+    flex-direction: row;
+    gap: 0.62rem;
+    transition: 0.2s ease;
+    overflow-y: hidden;
+}
+
+.icon_greenArrow:hover {
+    cursor: pointer;
+    color: #71D9FF;
+    transition: 0.2s ease;
+    transform: scale(1.03);
+}
+
+.icon_greenArrow img {
+    width: 0.8rem;
+    height: 1.15rem;
+    padding-bottom: 0.94rem;
+}
+
+.icon_greenArrow p {
+    position: relative;
+    bottom: 0.15rem;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    height: 2.5rem;
+    font-weight: 400;
+}
+
+.icon_greenArrow p:hover {
+    color: #71D9FF;
+}
+
+.contato {
+    width: 24.5rem;
+    height: 20.0625rem;
+}
+
+.contato h4 {
+    width: 19.5625rem;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.56rem;
+    font-weight: 900;
+    padding: 2.44rem 0 1.94rem 1.88rem;
+    letter-spacing: 0.10rem;
+}
+
+.contato p {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.06rem;
+    font-weight: 400;
+}
+
+.contato p:hover {
+    color: #71D9FF;
+}
+
+.box_iconContato {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6.9rem;
+    padding-left: 1.87rem;
+    overflow-y: hidden;
+}
+
+.icon_contato {
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+    transition: 0.2s ease;
+}
+
+.icon_contato:hover {
+    cursor: pointer;
+    color: #71D9FF;
+    transition: 0.2s ease;
+    transform: scale(1.01);
+}
+
+.icon_contato img {
+    width: 1.225rem;
+    height: 1.25rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0.94rem;
+}
+
+.icon_contato p {
+    position: relative;
+    bottom: 0.10rem;
+    width: max-content;
+    text-wrap: nowrap;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    height: 2.5rem;
+    font-weight: 400;
+    overflow-y: hidden;
+}
+
+.horizontal_line {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 2rem;
+}
+
+.last_options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.62rem;
+    gap: 48rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.last_three {
+    display: flex;
+    flex-direction: row;
+    gap: 3.75rem;
+}
+
+.last_datasane p,
+.last_three p {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    letter-spacing: 0.09375rem;
+    transition: 0.2s ease-out;
+}
+
+.last_datasane p:hover,
+.last_three p:hover {
+    cursor: pointer;
+    color: #71D9FF;
+    transform: scale(1.015);
+    transition: 0.2s ease-out;
+}
+
+/* -------------------------- END FOOTER -------------------------- */
+
+@media screen and (max-width: 768px) {
+    .container_threeTitles {
+        flex-direction: column;
+        align-items: center;
+    }
+}
