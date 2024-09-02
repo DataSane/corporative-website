@@ -1,0 +1,39 @@
+.container_elesConfiam {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title_elesConfiam {
+    color: #1B1717;
+    font-family: Poppins;
+    font-size: 3.1rem;
+    font-weight: 1000;
+    letter-spacing: 0.19rem;
+}
+
+.box_companiesLogo {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.itau {
+    padding-top: 1.5rem;
+}
+
+.stefanini {
+    padding-top: 0.81rem;
+}
+
+.minsait {
+    padding-top: 0.81rem;
+}
+
+.v8_tech {
+    padding-top: 2.1rem;
+}
+
+.saoPaulo {
+    padding-top: 2.1rem;
+}
