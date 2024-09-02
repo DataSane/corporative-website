@@ -1,0 +1,287 @@
+.container_footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -5.62rem;
+}
+
+.box_revolucioneSaneamento {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 16.62rem;
+    background-color: #21A2D1;
+    width: 83.75rem;
+    height: 22.125rem;
+    z-index: 2;
+}
+
+.title_revolucioneSaneamento {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 3.4rem;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    padding-top: 3.12rem;
+}
+
+.button_comecarFooter {
+    position: relative;
+    right: 27.45rem;
+    background-color: #007E95;
+    color: #FFFFFF;
+    width: 12.4rem;
+    height: 3.94rem;
+    padding-top: 1.56rem;
+    margin-top: 2.19rem;
+    text-align: center;
+    font-size: 0.9375rem;
+    font-weight: 800;
+    letter-spacing: 0.099rem;
+    border-radius: 0.9rem 0.1rem;
+    transition: 0.25s ease-out;
+}
+
+.button_comecarFooter:hover {
+    cursor: pointer;
+    transition: 0.25s ease-out;
+    transform: scale(1.03);
+    background-color: #86DFFF;
+    border-radius: 0.1rem 0.9rem;
+}
+
+.box_footer {
+    position: relative;
+    background-color: #2091BA;
+    width: 100%;
+    z-index: 1;
+    padding-top: 17.94rem;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.information {
+    width: 39.6875rem;
+    height: 20.0625rem;
+    padding-left: 4.43rem;
+}
+
+.information h4 {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.56rem;
+    font-weight: 900;
+    padding-top: 2.44rem;
+    letter-spacing: 0.10rem;
+}
+
+.information p {
+    padding-top: 1.3rem;
+    padding-bottom: 1.88rem;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.06rem;
+    font-weight: 400;
+}
+
+.box_iconInformation {
+    display: flex;
+    flex-direction: row;
+    gap: 0.94rem;
+    padding-top: 0.87rem;
+    overflow: hidden;
+}
+
+.icon_information {
+    transition: 0.2s ease;
+}
+
+.icon_information:hover {
+    cursor: pointer;
+    color: #71D9FF;
+    transition: 0.2s ease;
+    transform: scale(1.05);
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25.0625rem;
+    height: 20.0625rem;
+}
+
+.navegacao h4 {
+    width: 19.5625rem;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.56rem;
+    font-weight: 900;
+    padding: 2.44rem 0 0.94rem 2.9rem;
+    letter-spacing: 0.10rem;
+}
+
+.navegacao p {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.06rem;
+    font-weight: 400;
+}
+
+.box_iconArrow {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6.9rem;
+    overflow: hidden;
+}
+
+.icon_greenArrow {
+    display: flex;
+    flex-direction: row;
+    gap: 0.62rem;
+    transition: 0.2s ease;
+    overflow: hidden;
+}
+
+.icon_greenArrow:hover {
+    cursor: pointer;
+    color: #71D9FF;
+    transition: 0.2s ease;
+    transform: scale(1.03);
+}
+
+.icon_greenArrow img {
+    width: 0.8rem;
+    height: 1.7rem;
+    padding-bottom: 0.94rem;
+}
+
+.icon_greenArrow p {
+    position: relative;
+    bottom: 0.4rem;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    height: 2.5rem;
+    font-weight: 400;
+}
+
+.icon_greenArrow p:hover {
+    color: #71D9FF;
+}
+
+.contato {
+    width: 24.5rem;
+    height: 20.0625rem;
+}
+
+.contato h4 {
+    width: 19.5625rem;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.56rem;
+    font-weight: 900;
+    padding: 2.44rem 0 1.94rem 1.88rem;
+    letter-spacing: 0.10rem;
+}
+
+.contato p {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.06rem;
+    font-weight: 400;
+}
+
+.contato p:hover {
+    color: #71D9FF;
+}
+
+.box_iconContato {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6.9rem;
+    padding-left: 1.87rem;
+    overflow: hidden;
+}
+
+.icon_contato {
+    display: flex;
+    flex-direction: row;
+    width: 40rem;
+    transition: 0.2s ease;
+}
+
+.icon_contato:hover {
+    cursor: pointer;
+    color: #71D9FF;
+    transition: 0.2s ease;
+    transform: scale(1.01);
+}
+
+.icon_contato img {
+    width: 1.225rem;
+    height: 1.25rem;
+    margin-bottom: 1.5rem;
+    margin-right: 0.94rem;
+}
+
+.icon_contato p {
+    position: relative;
+    bottom: 0.10rem;
+    width: max-content;
+    text-wrap: nowrap;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    height: 2.5rem;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.horizontal_line {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 2rem;
+}
+
+.last_options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.62rem;
+    gap: 48rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.last_three {
+    display: flex;
+    flex-direction: row;
+    gap: 3.75rem;
+}
+
+.last_datasane p,
+.last_three p {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    letter-spacing: 0.09375rem;
+    transition: 0.2s ease-out;
+}
+
+.last_datasane p:hover,
+.last_three p:hover {
+    cursor: pointer;
+    color: #71D9FF;
+    transform: scale(1.015);
+    transition: 0.2s ease-out;
+}

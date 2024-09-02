@@ -60,7 +60,7 @@
 .container_buttonEnviar {
     display: flex;
     justify-content: center;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 .button_enviar {
