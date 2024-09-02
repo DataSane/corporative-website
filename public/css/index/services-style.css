@@ -1,0 +1,132 @@
+.container_services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_itensServices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+}
+
+.como_trabalhamos {
+    padding-top: 5.58rem;
+    margin-right: 70rem;
+    color: #757575;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+}
+
+.nossos_servicos {
+    padding-top: 0.94rem;
+    margin-right: 43.5rem;
+    width: 40.9rem;
+    color: #1B1717;
+    font-family: Poppins;
+    font-size: 2.8125rem;
+    font-weight: 1000;
+    letter-spacing: 0.2rem;
+}
+
+/* INSIGHTS */
+.icon_insights {
+    width: 3.9rem;
+    padding-top: 0.97rem;
+}
+
+.box_insights h3 {
+    color: #1B1717;
+    width: 26.5rem;
+    padding-top: 1.45rem;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.12rem;
+}
+
+.box_insights {
+    overflow-y: hidden;
+    padding-left: 4.6rem;
+    width: 30.5rem;
+    margin-top: 4rem;
+    height: 19.5rem;
+}
+
+.box_insights p {
+    color: #6E6E6E;
+    padding-top: 1rem;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+/* MAPA DE CALOR */
+.box_mapaCalor {
+    background-color: #00ADED;
+    padding-left: 1.6rem;
+    width: 30.5rem;
+    margin-top: 4rem;
+    height: 19.5rem;
+}
+
+.icon_mapaCalor {
+    padding-top: 0.87rem;
+    padding-left: 0.5rem;
+}
+
+.box_mapaCalor h3 {
+    color: #FFFFFF;
+    padding-top: 1.45rem;
+    padding-left: 1.8rem;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+}
+
+.box_mapaCalor p {
+    color: #FFFFFF;
+    padding-top: 0.93rem;
+    padding-left: 1.8rem;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-weight: 400;
+}
+
+/* RELATÓRIOS */
+.box_relatorios {
+    padding-left: 4.6rem;
+    width: 30.5rem;
+    margin-top: 4rem;
+    align-items: center;
+    height: 19.5rem;
+}
+
+.icon_relatorios {
+    padding-top: 0.87rem;
+}
+
+.box_relatorios h3 {
+    color: #1B1717;
+    letter-spacing: 0.2rem;
+    padding-top: 1.45rem;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+}
+
+.box_relatorios p {
+    color: #6E6E6E;
+    padding-top: 1rem;
+    font-family: Poppins;
+    font-size: 1.06rem;
+    font-weight: 400;
+}
