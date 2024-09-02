@@ -35,6 +35,14 @@
 }
 
 /* INSIGHTS */
+.box_insights {
+    overflow: hidden;
+    padding-left: 4.6rem;
+    width: 30.5rem;
+    margin-top: 4rem;
+    height: 19.5rem;
+}
+
 .icon_insights {
     width: 3.9rem;
     padding-top: 0.97rem;
@@ -48,14 +56,6 @@
     font-size: 1.5rem;
     font-weight: 900;
     letter-spacing: 0.12rem;
-}
-
-.box_insights {
-    overflow-y: hidden;
-    padding-left: 4.6rem;
-    width: 30.5rem;
-    margin-top: 4rem;
-    height: 19.5rem;
 }
 
 .box_insights p {

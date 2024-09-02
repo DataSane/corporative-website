@@ -39,7 +39,7 @@
 }
 
 .title_main {
-    overflow-y: hidden;
+    overflow: hidden;
     color: #FFFFFF;
     text-align: center;
     font-family: Lato;
