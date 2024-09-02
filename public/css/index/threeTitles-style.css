@@ -1,0 +1,69 @@
+.container_threeTitles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+
+.container_threeTitles h4 {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+}
+
+.box_inovacaoSustentavel {
+    overflow-y: hidden;
+    background-color: #21A2D1;
+    padding-top: 5rem;
+    padding-left: 1.94rem;
+    width: 27.96019rem;
+    height: 18.5rem;
+    margin-left: 3rem;
+}
+
+.box_inovacaoSustentavel p {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    padding-top: 0.94rem;
+    padding-bottom: 6.06rem;
+}
+
+.box_precisaoConfiabilidade {
+    overflow-y: hidden;
+    background-color: #47BFEB;
+    padding-top: 5rem;
+    padding-left: 1.94rem;
+    width: 27.96019rem;
+    height: 18.5rem;
+}
+
+.box_precisaoConfiabilidade p {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    padding-top: 0.94rem;
+    padding-bottom: 6.06rem;
+}
+
+.box_responsabilidadeSocial {
+    overflow-y: hidden;
+    background-color: #21A2D1;
+    padding-top: 5rem;
+    padding-left: 1.94rem;
+    width: 27.96019rem;
+    height: 18.5rem;
+}
+
+.box_responsabilidadeSocial p {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    padding-top: 0.94rem;
+    padding-bottom: 6.06rem;
+}
