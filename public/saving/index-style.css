@@ -9,103 +9,7 @@ body {
     /* height: 30rem; */
 }
 
-header {
-    height: 3.6rem;
-    display: flex;
-    flex-direction: row;
-}
-
-/* -------------------------- Header -------------------------- */
-
-.logo_header {
-    display: flex;
-    align-items: center;
-    padding-left: 10.4rem;
-    padding-top: 0.35rem;
-    width: 3.4rem;
-    height: 2.8rem;
-}
-
-.logo_header img {
-    height: 100%;
-    width: 100%;
-}
-
-.options_header {
-    display: flex;
-    justify-content: flex-end;
-    padding-left: 37.25rem;
-    height: 100%;
-}
-
-nav {
-    display: flex;
-    height: 100%;
-}
-
-ul {
-    width: 32rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 3.62rem;
-}
-
-li,
-li a {
-    list-style: none;
-    text-decoration: none;
-    color: #828282;
-    font-weight: 500;
-    transition: 0.15s ease-in;
-}
-
-li:hover {
-    transform: scale(1.05);
-}
-
-li a:hover {
-    color: #00ADED;
-    transition: 0.15s ease-out;
-    cursor: pointer;
-    font-weight: 800;
-}
-
-/* -------------------------- END Header -------------------------- */
-
-/* -------------------------- MAIN -------------------------- */
-.box_textMain {
-    background-image: url(./assets/backgroundMain.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 92.3vh;
-    color: #FFFFFF;
-}
-
-.title_main {
-    overflow-y: hidden;
-    padding-top: 12.75rem;
-    color: #FFFFFF;
-    text-align: center;
-    font-family: Lato;
-    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.50);
-    font-size: 5rem;
-    font-weight: 700;
-    line-height: 5.625rem;
-}
-
-.paragraph_main {
-    height: 5.45rem;
-    color: #FFFFFF;
-    text-align: center;
-    margin-top: 3.12rem;
-    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.50);
-    font-family: Lato;
-    font-size: 1.5rem;
-    font-weight: 400;
-}
+/* -------------------------- MAIN -------------------------- */    
 
 /* -------------------------- END MAIN -------------------------- */
 
@@ -123,6 +27,7 @@ li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    width: 80%;
 }
 
 .como_trabalhamos {
@@ -294,6 +199,7 @@ li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 80%;
 }
 
 .container_threeTitles h4 {
@@ -377,7 +283,7 @@ li a:hover {
     margin-bottom: 0.94rem;
     color: #757575;
     font-family: Poppins;
-    font-size: 1.06rem;
+    font-size: 1.2rem;
     font-weight: 900;
     letter-spacing: 0.045rem;
 }
@@ -573,6 +479,7 @@ li a:hover {
     padding: 1rem 10.375rem;
     margin-top: 1.75rem;
     transition: 0.2s ease-in;
+    z-index: 1;
 }
 
 .button_enviar:hover {

@@ -14,32 +14,45 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="../css/index/header-style.css">
+    <link rel="stylesheet" href="./main-style.css">
     <link rel="stylesheet" href="./index-style.css">
     <title>Site Institucional - DataSane</title>
 </head>
 
 <body>
-    <header>
-        <div class="logo_header">
-            <img src="./assets/logo_temporaria.png">
-        </div>
-
-        <div class="options_header">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Sobre nós</a></li>
-                    <li><a href="#">Contato</a></li>
+    <header class="header">
+        <div class="inner-header">
+            <div class="logo-wrapper">
+                <img src="../assets/icon/DataSane.svg" alt="logo">
+            </div>
+            <div class="btnMob-wrapper">
+                <button type="button" class="btn-navmob">O</button>
+            </div>
+            <nav class="nav-bar">
+                <ul class="nav-list">
+                    <li class="nav-list">
+                        <a href="home" class="nav-link on">Home</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="about" class="nav-link">Sobre nós</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="services" class="nav-link">Serviços</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="partners" class="nav-link">Parceiros</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="contact" class="nav-link">Contato</a>
+                    </li>
                 </ul>
             </nav>
-
-
         </div>
     </header>
 
     <div class="container">
-        <div class="container_main">
+        <div class="container_backgroundMain">
             <div class="box_textMain">
                 <div class="title_main">
                     Seu Aliado na Gestão de <br>Saneamento Básico
@@ -50,6 +63,10 @@
                     críticas,
                     antecipar desafios, garantindo operações mais eficientes e melhor <br>qualidade de vida.
                 </div>
+            </div>
+
+            <div class="img_waves" style="width: 200rem; display: flex; justify-content: center;">
+                <img src="../assets/img/wave.svg">
             </div>
         </div>
 
