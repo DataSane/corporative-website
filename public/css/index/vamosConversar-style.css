@@ -1,0 +1,83 @@
+.container_vamosConversar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10.62rem;
+    gap: 4.75rem;
+}
+
+.vamosConversar {
+    text-align: center;
+}
+
+.title_vamosConversar {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 4rem;
+    font-weight: 500;
+    padding-top: 6rem;
+}
+
+.paragraph_vamosConversar {
+    padding-top: 1.25rem;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.formulario_vamosConversar p {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 0.94rem;
+}
+
+#id_email,
+#id_assunto,
+#id_message {
+    padding-top: 1.75rem;
+}
+
+#input_nome,
+#input_email,
+#input_assunto {
+    border: none;
+    background-color: #e2e2e2a6;
+    width: 38.1rem;
+    height: 2.875rem;
+}
+
+#input_message {
+    border: none;
+    background-color: #e2e2e2a6;
+    width: 38.1rem;
+    height: 10.3125rem;
+    align-self: stretch;
+}
+
+.container_buttonEnviar {
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+.button_enviar {
+    background-color: #21A2D1;
+    color: #FFFFFF;
+    font-weight: 550;
+    border: none;
+    letter-spacing: 0.09rem;
+    padding: 1rem 10.375rem;
+    margin-top: 1.75rem;
+    transition: 0.2s ease-in;
+    z-index: 1;
+}
+
+.button_enviar:hover {
+    cursor: pointer;
+    transform: scale(1.025);
+    background-color: #00aeedd1;
+    transition: 0.18s ease-out;
+}
