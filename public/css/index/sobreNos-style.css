@@ -38,3 +38,44 @@
     font-size: 1.06rem;
     font-weight: 400;
 }
+
+@media screen and (max-width: 768px) {
+    .container_sobreNos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .image_sanitation {
+        /* transform: scale(0.7);   */
+        margin: 0rem 0rem 3.12rem 0rem;
+        width: 120%;
+    }
+
+    .container_title-sobreNos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .nosso_proposito {
+        width: 100%;
+        margin-top: -2.3rem;
+        transform: scale(0.7);
+    }
+
+    .title_sobreNos {
+        width: 100%;
+        margin-top: -0.7rem;
+        margin-right: 15.9rem;
+        transform: scale(0.7);
+    }
+
+    .paragraph_sobreNos {
+        width: 100%;
+        margin-top: -5.7rem;
+        margin-right: 15.9rem;
+        transform: scale(0.7);
+    }
+}
