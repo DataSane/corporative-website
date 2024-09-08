@@ -54,7 +54,6 @@
     background-color: #e2e2e2a6;
     width: 38.1rem;
     padding-bottom: 10.3125rem;
-    
 }
 
 .container_buttonEnviar {
@@ -80,4 +79,63 @@
     transform: scale(1.025);
     background-color: #00aeedd1;
     transition: 0.18s ease-out;
+}
+
+/* ------------------ RESPONSIVIDADE ------------------ */
+
+@media screen and (max-width: 768px) {
+    .container_vamosConversar {
+        width: 80%;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .vamosConversar {
+        width: 100%;
+        /* transform: scale(0.7); */
+        text-align: start;
+    }
+
+    .title_vamosConversar {
+        width: 100%;
+        padding-top: 0;
+        padding-right: 2rem;
+    }
+
+    .title_vamosConversar p {
+        width: 19.375rem;
+        position: relative;
+        right: 2rem;
+        /* text-align: center; */
+        transform: scale(0.7);
+    }
+
+    .paragraph_vamosConversar {
+        margin-top: -2rem;
+        transform: scale(0.8);
+    }
+
+    .paragraph_vamosConversar p br {
+        display: none;
+    }
+
+    .formulario_vamosConversar {
+        width: 100%;
+        margin-top: -2rem;
+        transform: scale(0.8);
+    }
+
+    .formulario_vamosConversar p {
+        align-items: center;
+    }
+
+    #input_nome,
+    #input_email,
+    #input_assunto {
+        width: 100%;
+    }
+
+    #input_message {
+        width: 100%;
+    }
 }

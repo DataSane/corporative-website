@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     padding-top: 3.5rem;
     margin-left: 3.94rem;
 }
@@ -84,4 +85,78 @@
     margin-left: 7.12rem;
     width: 33.8125rem;
     height: 21.875rem;
+}
+
+/* ------------------ RESPONSIVIDADE ------------------ */
+@media screen and (max-width: 768px) {
+    .container_protejaSuaComunidade {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .protejaSuaComunidade {
+        /* margin-left: 0; */
+        transform: scale(0.8);
+        width: 100%;
+    }
+
+    .evite_problemas,
+    .title_protejaSuaComunidade,
+    .paragraph_protejaSuaComunidade {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .container_title-protejaSuaComunidade {
+        align-items: center;
+    }
+
+    .evite_problemas {
+        margin-top: 0rem;
+        margin-bottom: -0.9rem;
+    }
+
+    .title_protejaSuaComunidade h3 {
+        transform: scale(0.7);
+        margin-right: 50rem;
+        margin-bottom: -0.5rem;
+    }
+
+    .paragraph_protejaSuaComunidade {
+        margin-bottom: 2.5rem;
+    }
+
+    .paragraph_protejaSuaComunidade br {
+        display: none;
+    }
+
+    .images_protejaSuaComunidades {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top_img {
+        width: 18.75rem;
+        height: 15.625rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+        display: none;
+    }
+
+    .center_img {
+        width: 18.75rem;
+        height: 15.625rem;
+        bottom: 0;
+    }
+
+    .bottom_img {
+        bottom: 0;
+        width: 18.75rem;
+        height: 15.625rem;
+        margin-left: 0;
+        display: none;
+    }
 }

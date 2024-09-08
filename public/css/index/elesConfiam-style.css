@@ -37,3 +37,29 @@
 .saoPaulo {
     padding-top: 2.1rem;
 }
+
+/* ------------------ RESPONSIVIDADE ------------------ */
+@media screen and (max-width: 768px) {
+    .container_elesConfiam { 
+        /* justify-content: center; */
+        width: 80%;    
+    }
+
+    .title_elesConfiam {
+        margin-top: 10rem;
+        margin-bottom: -0.8rem;
+        width: 100%;
+        transform: scale(0.8);
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .box_companiesLogo {
+        width: 100%;
+        gap: 2.5rem;
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        transform: scale(0.8);
+    }
+}
