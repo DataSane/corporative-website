@@ -286,3 +286,115 @@
     transform: scale(1.015);
     transition: 0.2s ease-out;
 }
+
+/* ------------------ RESPONSIVIDADE ------------------ */
+@media screen and (max-width: 768px) {
+    .container_footer {
+        width: 100%;
+    }
+    
+    .box_revolucioneSaneamento {
+        width: 130%;
+        transform: scale(0.7);
+    }
+
+    .title_revolucioneSaneamento {
+        font-size: 2rem;
+        text-align: center;
+        padding: 4rem 1rem 0rem 1rem;
+        height: 70%;
+    }
+
+    .title_revolucioneSaneamento br {
+        display: none;
+    }
+
+    .box_footer {
+        width: 100%;
+    }
+
+    .footer_content {
+        width: 80%;
+        margin-top: -8rem;
+        align-items: center;
+        /* gap: ; */
+    }
+
+    .information {
+        width: 60%;
+        padding: 0;
+        margin-right: 1rem;
+        transform: scale(0.5);
+    }
+
+    .information p br {
+        display: none;
+    }
+
+    .information p {
+        width: 100%;
+    }
+
+    .navegacao {
+        width: 20%;
+        transform: scale(0.5);
+        padding: 0;
+    }
+
+    .box_iconArrow {
+        width: 200%;
+        padding-top: 1.2rem;
+    }
+
+    .contato {
+        width: 20%;
+        transform: scale(0.5);
+        padding: 0;
+        margin-right: 1.8rem;
+    }
+
+    .box_iconContato {
+        width: 100%;
+        padding: 0;
+        padding-left: 2rem;
+    }
+
+    .icon_contato p {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    .horizontal_line {
+        width: 100%;
+    }
+
+    .horizontal_line img {
+        width: 90%;
+    }
+
+    .last_options {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        gap: 0;
+        margin-left: 2.8rem;
+        height: 100%;
+    }
+
+    .last_datasane {
+        width: 100%;
+        transform: scale(0.4);
+    }
+
+    .last_three {
+        width: 100%;
+        gap: 3.5rem;
+        transform: scale(0.4);
+        margin-right: 2rem;
+    }
+
+    .last_three p {
+        width: 100%;
+        white-space: nowrap;
+    }
+}
