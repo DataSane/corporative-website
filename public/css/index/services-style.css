@@ -13,9 +13,19 @@
     width: 80%;
 }
 
-.como_trabalhamos {
+/* .como_trabalhamos {
     padding-top: 5.58rem;
     margin-right: 40rem;
+    color: #757575;
+    font-family: Poppins;
+    font-size: 1.0625rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+} */
+
+.como_trabalhamos {
+    padding-top: 5.58rem;
+    margin-right: 70rem;
     color: #757575;
     font-family: Poppins;
     font-size: 1.0625rem;
@@ -33,6 +43,7 @@
     font-weight: 1000;
     letter-spacing: 0.2rem;
 }
+
 
 /* INSIGHTS */
 .box_insights {
