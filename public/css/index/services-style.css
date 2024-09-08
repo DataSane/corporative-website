@@ -37,7 +37,9 @@
 /* INSIGHTS */
 .box_insights {
     overflow: hidden;
+    align-items: center;
     padding-left: 4.6rem;
+    padding-right: 3rem;
     width: 30.5rem;
     margin-top: 4rem;
     height: 19.5rem;
@@ -129,4 +131,50 @@
     font-family: Poppins;
     font-size: 1.06rem;
     font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .como_trabalhamos {
+        margin-right: 10rem;
+        transform: scale(0.65);
+    }
+    
+    .nossos_servicos {
+        margin-top: -2.3rem;
+        margin-right: -4.65rem;
+        transform: scale(0.58);
+        letter-spacing: 0.1rem;
+    }
+
+    .container_itensServices {
+        flex-direction: column;
+    }
+
+    .box_insights {
+        transform: scale(0.7);  
+        margin-top: -2rem;     
+        height: 100%;
+        padding-left: 3.5rem;
+    }
+
+    .icon_insights img {
+        /* height: 5rem; */
+        width: 3.8rem;
+    }
+
+    .box_mapaCalor {
+        transform: scale(0.7);
+        margin-top: -3rem;
+    }
+
+    .box_mapaCalor img {
+        /* height: 5rem; */
+        width: 7rem;
+    }
+
+    .box_relatorios {
+        transform: scale(0.7);
+        margin-top: -3rem;
+        padding-left: 3.5rem;
+    }
 }

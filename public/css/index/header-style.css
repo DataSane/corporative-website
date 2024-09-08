@@ -59,19 +59,20 @@
     background-color: #007fad;
 }
 
+
  /*  responsivididade */
 
 .btnMob-wrapper{
     display: none;
 }
 
-@media(max-width: 995px){
+@media(max-width: 768px){
     .btnMob-wrapper{
         display: flex;
     }
     .nav-bar{
-        position: absolute;
-        top: 70px;
+        position: relative;
+        /* top: 70px; */
         width: 100%;
         background-color: #FFF;
         padding-bottom: 30px;

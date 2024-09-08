@@ -1,3 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* body {
+
+} */
+
+
 .container {
     width: 100%;
     display: flex;
@@ -25,7 +35,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 100%; 
+    width: 100%;
 }
 
 .img_waves {
@@ -35,7 +45,7 @@
 }
 
 .img_waves img {
-    width: 59%;
+    width: 59.9%;
 }
 
 .title_main {
@@ -51,11 +61,59 @@
 
 .paragraph_main {
     height: 5.45rem;
+    width: 90rem;
     color: #FFFFFF;
     text-align: center;
     margin-top: 3.12rem;
     text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.50);
     font-family: Lato;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-weight: 400;
+}
+
+/* -------------------- RESPONSIVIDADE -------------------- */
+
+@media screen and (max-width: 768px) {
+    .nav-bar ul {
+        padding-top: 1.5rem;
+    }
+
+    .nav-bar ul li {
+        justify-content: center;
+    }
+
+    .container_backgroundMain {
+        background-size: 100rem;
+        height: 36rem;
+    }
+
+    .img_waves {
+        position: relative;
+        top: 12rem;
+        left: 1rem;
+        width: 100%;
+    }
+    
+    .img_waves img {
+        width: 35.9%;
+    }
+
+    .title_main {
+        width: 80%;
+        height: 100%;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+    }
+
+    .paragraph_main br {
+        display: none;
+    }
+
+    .paragraph_main {
+        width: 80%;
+        height: 90%;
+        font-size: 0.8rem;
+        line-height: 1.1rem;
+        margin-top: 2rem;
+    }
 }
