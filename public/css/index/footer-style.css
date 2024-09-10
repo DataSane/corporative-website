@@ -84,11 +84,12 @@
 }
 
 .information p {
+    width: 80%;
     padding-top: 1.3rem;
     padding-bottom: 1.88rem;
     color: #FFFFFF;
     font-family: Poppins;
-    font-size: 1.06rem;
+    font-size: 0.8rem;
     font-weight: 400;
 }
 
@@ -137,6 +138,7 @@
 }
 
 .box_iconArrow {
+    padding-top: 0.5rem;
     display: flex;
     flex-direction: column;
     margin-right: 6.9rem;
@@ -240,7 +242,7 @@
     text-wrap: nowrap;
     color: #FFFFFF;
     font-family: Poppins;
-    font-size: 1.0625rem;
+    font-size: 0.95rem;
     height: 2.5rem;
     font-weight: 400;
     overflow: hidden;
@@ -377,7 +379,7 @@
         align-items: center;
         width: 80%;
         gap: 0;
-        margin-left: 2.8rem;
+        margin-left: 3.5rem;
         height: 100%;
     }
 

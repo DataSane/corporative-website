@@ -1,10 +1,14 @@
-.header{
+.header {
     width: 100%;
     height: 70px;
     background-color: rgb(255, 255, 255);
 }
 
-.inner-header{
+.container_menuHeader {
+    display: none;
+}
+
+.inner-header {
     width: 80%;
     height: 100%;
     background-color: #FFF;
@@ -14,16 +18,19 @@
     justify-content: space-between;
     align-items: center;
 }
-.logo-wrapper{
+
+.logo-wrapper {
     height: 100%;
     width: 170px;
     display: flex;
     align-items: center;
 }
-.logo-wrapper > img{
+
+.logo-wrapper>img {
     height: 90%;
 }
-.nav-list{
+
+.nav-list {
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -32,57 +39,160 @@
     align-items: center;
     font-size: 14px;
 }
-.nav-link{
+
+.nav-link {
     color: #4d4d4d;
     text-decoration: none;
     transition: 0.3s all;
 }
-.nav-link.on, .nav-link:hover{
+
+.nav-link.on,
+.nav-link:hover {
     color: #00ADED;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     transform: scale(0.95);
 }
-.nav-list:nth-child(5){
+
+.nav-list:nth-child(5) {
     height: 40px;
     width: 120px;
     display: flex;
     justify-content: center;
 }
-.nav-list:nth-child(5) > .nav-link{
+
+.nav-list:nth-child(5)>.nav-link {
     color: #FFF;
     padding: 9px 27px;
     background-color: #00ADED;
     border-radius: 3px;
 }
-.nav-list:nth-child(5) > .nav-link:hover{
+
+.nav-list:nth-child(5)>.nav-link:hover {
     background-color: #007fad;
 }
 
 
- /*  responsivididade */
+/*  responsivididade */
 
-.btnMob-wrapper{
+.btnMob-wrapper {
     display: none;
 }
 
-@media(max-width: 768px){
-    .btnMob-wrapper{
+.btnMob-wrapper {
+    position: relative;
+    left: 8rem;
+}
+
+@media(max-width: 768px) {
+    .btnMob-wrapper {
         display: flex;
-    }
-    .nav-bar{
         position: relative;
-        /* top: 70px; */
+        align-items: center;
         width: 100%;
-        background-color: #FFF;
-        padding-bottom: 30px;
-        right: -100%;
+        height: 100%;
+        left: 0;
     }
-    .nav-bar > .nav-list{
+
+    .btn-navmob {
+        margin-top: 0.5rem;        
+        margin-left: 8rem;
+        width: 40%;
+        height: 40%;
+    }
+
+    .btn-navmob:hover {
+        cursor: pointer;
+        transform: scale(0.95);
+        transition: 0.05s all;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .container_menuMobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .mobile_menuHeader {
+        display: flex;
+        position: relative;
+        bottom: 0.2rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        right: -120%;
+        justify-content: center;
+        width: 100%;
+        background-color: #FFFFFF;
+        z-index: 0;
+        transform: scale(-0.05);
+        transition: 1s ease-in;
+    }
+
+    .mobile_menuHeader.active {
+        right: 0;
+        transform: scale(1);
+        transition: 1s ease-out;
+    }
+
+    .box_optionsHeader {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        background-color: #FFFFFF;
+        width: 80%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        gap: 1.5rem;
+        z-index: 0;
     }
-    .nav-bar.active{
-        right: 0;
+
+    .box_optionsHeader a {
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        align-items: center;
+        font-size: 0.875rem;
+        text-underline-offset: unset;
+        text-decoration: none;
+        /* color: black; */
+    }
+
+    .options_link-contato {
+        color: #FFFFFF;
+        padding: 9px 27px;
+        background-color: #00ADED;
+        border-radius: 3px;
+    }
+
+    .options_link-inicio, .options_link {
+        color: #4d4d4d;
+    }
+
+    .options_link-inicio, .options_link, .options_link-contato {
+        text-decoration: none;
+        transition: 0.15s all;
+    }
+
+    .options_link-inicio:hover, .options_link:hover, .options_link-contato:hover {
+        cursor: pointer;
+        transform: scale(0.95);
+    }
+
+    .options_link-inicio, .options_link:hover {
+        color: #00ADED;
+    }
+
+    .options_link-inicio:hover {
+        color: #7f7f7f;
+    }
+    
+    .options_link-contato:hover {
+        color: #FFFFFF;
+        background-color: #007fad;
     }
 }
