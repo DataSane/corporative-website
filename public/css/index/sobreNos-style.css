@@ -6,7 +6,12 @@
 }
 
 .image_sanitation {
-    background-color: #C2C2C2;
+    /* background-color: #C2C2C2; */
+    background-image: linear-gradient(180deg, rgba(0, 110, 255, 0.116), rgba(0, 0, 0, 0.664)), url("/assets/img/dashboard-sobreNos.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.3rem;
     margin: 0rem 1.88rem 3.12rem 3.9rem;
     width: 40.9rem;
     height: 28.3rem;
@@ -48,7 +53,6 @@
     }
 
     .image_sanitation {
-        /* transform: scale(0.7);   */
         margin: 0rem 0rem 3.12rem 0rem;
         width: 120%;
     }

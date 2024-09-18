@@ -62,11 +62,14 @@
 
 .top_img {
     position: relative;
-    background-color: #808080;
     margin-left: 7.12rem;
     margin-top: 6.25rem;
     width: 33.8125rem;
     height: 21.875rem;
+    background-image: linear-gradient(180deg, rgba(0, 110, 255, 0.116), rgba(0, 0, 0, 0.664)), url("/assets/img/top-img.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .center_img {
@@ -76,15 +79,23 @@
     width: 33.8125rem;
     height: 21.875rem;
     z-index: 1;
+    background-image: url("/assets/img/center-img.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .bottom_img {
     position: relative;
     bottom: 17.96rem;
-    background-color: #808080;
     margin-left: 7.12rem;
     width: 33.8125rem;
     height: 21.875rem;
+    background-image: linear-gradient(180deg, rgba(0, 110, 255, 0.116), rgba(0, 0, 0, 0.664)), url("/assets/img/bottom-img.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* ------------------ RESPONSIVIDADE ------------------ */
@@ -147,9 +158,10 @@
     }
 
     .center_img {
-        width: 18.75rem;
+        width: 100%;
         height: 15.625rem;
         bottom: 0;
+        border-radius: 0.3rem;
     }
 
     .bottom_img {
