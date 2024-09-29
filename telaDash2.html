@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,22 +10,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="./telaDash.css">
 </head>
+
 <body>
     <div class="header">
         <a href="#default"><i class="bi bi-list"></i></a>
         <div class="header-right">
-          <a class="active" href="#notification"><i class="bi bi-bell"></i></a>
-          <a href="#contact"><i class="bi bi-gear"></i></a>
-          <a href="#about"><i class="bi bi-person"></i></a>
+            <a class="active" href="#notification"><i class="bi bi-bell"></i></a>
+            <a href="#contact"><i class="bi bi-gear"></i></a>
+            <a href="#about"><i class="bi bi-person"></i></a>
         </div>
-      </div>
+    </div>
 
-    <div class="box-select">
+    <!-- <div class="box-select">
         <div class="box">
             <h1>Selecione o município</h1>
             <input type="text">
         </div>
-    </div>
-    
+    </div> -->
+
+    <div class="container">
+        <div class="input-box">
+          <div class="input-field left">
+            <h1 class="Select1">Selecione o <br> 1º Município</h1>
+            <input type="text">
+            <span class="search-icon"></span>
+          </div>
+          <div class="input-field right">
+            <h1 class="Select2">Selecione o <br> 2º Município</h1>
+            <input type="text">
+            <span class="search-icon"></span>
+          </div>
+        </div>
+        <button class="btn">Benchmark</button>
+      </div>
 </body>
+
 </html>
