@@ -31,106 +31,82 @@
     float: right;
 }
 
-.Caixa-Conteudo {
-    /*Tamanho*/
-    width: 95%;
-    height: 100%;
-    /*Espaçamento*/
-    padding: 5px;
-    margin-top: 20px;
-    margin-left: 30px;
-    /*Organzação de elementos filhos*/
+.AreaKpis{
     display: flex;
-    flex-direction: column;
-    gap: 5px;
-    /*cor*/
-    background-color: palevioletred;
+    flex-direction: row;
+    margin-top: 2%;
+    gap: 30px;
+    justify-content: center;
+
 }
 
-.Sessão-Conteudo-Dash {
-    /*Tamanho*/
-    width: 100%;
-    height: 95%;
-    /*Organização de elementos filhos*/
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    /*cor*/
+.KPI1, .KPI2, .KPI3, .KPI4{
+    width:400px;
+    height: 180px;
     background-color: blue;
+    border-radius: 16px;
 }
 
-.Sessao-Indicadores{
-     /*Tamanho*/
-     width: 100%;
-     height: 120px;
-     /*Organização de elementos filhos*/
-     display: flex;
-     flex-direction: row;
-     justify-content: space-evenly;
-   
-}
-
-.INFO-1{
-     /*tamanho*/
-     height: 100%;
-     width: 20%;
-     /*espaçamento*/
-     padding: 10px;
-     /*detalhes*/
-     text-align: center;
-     /*Fonte*/
-     font-size: 18px;
-     /*cor*/
-     background-color: #f1f1f1;
-     /*borda*/
-     border-radius: 8px;
-}
-
-.titulo{
-    /*tamanho*/
-    height: 10px;
-}
-
-.conteudo-info{
-    /*tamanho*/
-    width: 100%;
-    height: 74%;
-    /*espaçamento*/
-    padding: 5px;
-    gap: 10px;
-    margin-bottom: 90px;
-    /*organização do elementos filhos*/
+.KPI1, .KPI2, .KPI3, .KPI4{
     display: flex;
-   justify-content: center;
+    flex-direction: row;
+}
+
+.bolaRoxa{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #8D33FF;
+    margin-top: 25px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    /*detalhes*/
-    box-sizing: border-box;
-    /*posição*/
-    position: relative;
-    background-color: aqua;
 }
 
-.circulo{
-    /*tamanho*/
-    height: 50%;
-    width: 50%;
-    /*fonte*/
-    /*espaçamento*/
-    margin-bottom: 70px;
-    font-size: 60px;
-    /*cor*/
-    color: purple;
-    /*borda*/
-    border-radius: 50px;
-    /*posição*/
-    position: relative;
-    z-index: 1;
+img{
+    height: 60px;
+    width: 50px;
 }
 
-.Informacao{
-    /*fonte*/
-    font-size: 24px;
-    font-weight: bold;
-    text-align: left;
-    flex-grow: 1;
+.AreaTexto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    gap: 30px;
+    margin-left: 8%;
+}
+
+
+.Graficos{
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.Grafico1{
+    width: 1058px;
+    height: 600px;
+    background-color: green;
+    border-radius: 16px;
+}
+
+.AreaGraficoPizza, .AreaGraficoPizza2{
+
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.GraficoPizza1, .GraficoPizza2, .GraficoPizza3, .GraficoPizza4{
+    
+    width: 300px;
+    height: 295px;
+     background-color: aqua;
+     border-radius: 16px;
+
 }
