@@ -8,10 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="https://icons.getbootstrap.com/icons/circle-fill/" rel="stylesheet">
     <link rel="stylesheet" href="./telaDash1.css/TelaDash1.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
 </head>
 
 <body>
@@ -27,7 +24,7 @@
     <div class="AreaKpis">
         <div class="KPI1">
             <div class="bolaRoxa">
-                <img src="../assets/icon/Gota.png" alt="">
+                <img src="../assets/icon/GotaBranca.png" alt="">
             </div>
             <div class="AreaTexto">
                 <p>Crítico</p>
@@ -35,21 +32,27 @@
             </div>
         </div>
         <div class="KPI2">
-            <div class="bolaRoxa"></div>
+            <div class="bolaRoxa">
+                <img class="Banheiro" src="../assets/icon/Banheiro.png" alt="">
+            </div>
             <div class="AreaTexto">
                 <p>Crítico</p>
                 <span>SubTítulo</span>
             </div>
         </div>
         <div class="KPI3">
-            <div class="bolaRoxa"></div>
+            <div class="bolaRoxa">
+                <img class="Lixo" src="../assets/icon/Coleta.png" alt="">
+            </div>
             <div class="AreaTexto">
                 <p>Crítico</p>
                 <span>SubTítulo</span>
             </div>
         </div>
         <div class="KPI4">
-            <div class="bolaRoxa"></div>
+            <div class="bolaRoxa">
+                <img class="Inundacao" src="../assets/icon/Inundacao.png" alt="">
+            </div>
             <div class="AreaTexto">
                 <p>Crítico</p>
                 <span>SubTítulo</span>
@@ -62,105 +65,84 @@
             <canvas id="grafico1"></canvas>
         </div>
         <div class="AreaGraficoPizza">
-                <div class="GraficoPizza1">
-                    <canvas id="graficoPizza1"></canvas>
+            <div class="GraficoPizza1">
+                <canvas id="graficoPizza1"></canvas>
             </div>
-            <div class="GraficoPizza2"></div>
+            <div class="GraficoPizza2">
+                <canvas id="graficoPizza2"></canvas>
+            </div>
         </div>
         <div class="AreaGraficoPizza">
-            <div class="GraficoPizza1"></div>
-            <div class="GraficoPizza2"></div>
+            <div class="GraficoPizza3">
+                <canvas id="graficoPizza3"></canvas>
+            </div>
+            <div class="GraficoPizza4">
+                <canvas id="graficoPizza4"></canvas>
+            </div>
         </div>
     </div>
-     
-</body>
 
-</html>
+    <script>
+        const labels = ['A', 'B', 'C'];
+        const data = {
+            labels: labels,
+            datasets: [{
+                axis: 'y',
+                label: '',
+                data: [70, 100, 20],
+                fill: false,
+                backgroundColor: ['rgba(52, 175, 255, 1)', 'rgba(141, 51, 255, 1)', 'rgba(103, 226, 205, 1)'],
+                borderWidth: 1
+            }]
+        };
 
-<script>
-    const labels = ['Minhas oportunidades de socialização', 'Minhas despesas diárias', 'Minha satisfação no trabalho', 'Meu bem-estar mental', 'Gerenciando meus compromissos pessoais'];
-    const data = {
-        labels: labels,
-        datasets: [{
-            axis: 'y',
-            label: '',
-            data: [560, 69, 119, 175, 77],
-            fill: false,
-            backgroundColor: 'rgb(32, 165, 223)',
-            borderWidth: 1
-        }]
-    };
-    
-    document.addEventListener('DOMContentLoaded', function () {
-        const ctx = document.getElementById('grafico1').getContext('2d');
-        const myChart = new Chart(ctx, {
-            type: 'bar',
-            data: data,
-            options: {
-                indexAxis: 'y',
-                responsive: true,
-                maintainAspectRatio: false,
-                scales: {
-                    y: {
-                        beginAtZero: true
-                    }
-                },
-                plugins: {
-                    legend: {
-                        display: false
-                    }
-                }, 
-                elements: {
-                    bar: {
-                        borderRadius: 4
-                    }
-                }
-            }
-        });
-    });
-
-    // Grafico Pizza
-
-    const labelsPizza = ['Red', 'Blue', 'Yellow', 'Green', 'Purple'];
-            const dataPizza = {
-                labels: labelsPizza,
-                datasets: [{
-                    label: 'My First Dataset',
-                    data: [300, 50, 100, 40, 120],
-                    backgroundColor: [
-                        'rgba(255, 99, 132, 0.5)',
-                        'rgba(54, 162, 235, 0.5)',
-                        'rgba(255, 206, 86, 0.5)',
-                        'rgba(75, 192, 192, 0.5)',
-                        'rgba(153, 102, 255, 0.5)'
-                    ],
-                    borderColor: [
-                        'rgba(255, 99, 132, 1)',
-                        'rgba(54, 162, 235, 1)',
-                        'rgba(255, 206, 86, 1)',
-                        'rgba(75, 192, 192, 1)',
-                        'rgba(153, 102, 255, 1)'
-                    ],
-                    borderWidth: 1
-                }]
-            };
-
-            const ctxPizza = document.getElementById('graficoPizza1').getContext('2d');
-            const myChartPizza = new Chart(ctxPizza, {
-                type: 'pie',
-                data: dataPizza,
+        document.addEventListener('DOMContentLoaded', function () {
+            const ctx = document.getElementById('grafico1').getContext('2d');
+            const myChart = new Chart(ctx, {
+                type: 'bar',
+                data: data,
                 options: {
+                    indexAxis: 'y',
                     responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    },
                     plugins: {
                         legend: {
-                            position: 'top',
-                        },
-                        title: {
-                            display: true,
-                            text: 'Gráfico de Pizza'
+                            display: false
+                        }
+                    },
+                    elements: {
+                        bar: {
+                            borderRadius: 4
                         }
                     }
                 }
             });
-        
-</script>
+        });
+
+        const labelsPizza = ['Média', 'Alta', 'Baixa'];
+        const dataPizza = {
+            labels: labelsPizza,
+            datasets: [{
+                data: [30, 40, 30],
+                backgroundColor: ['rgba(52, 175, 255, 1)', 'rgba(141, 51, 255, 1)', 'rgba(103, 226, 205, 1)']
+            }]
+        };
+
+        const ctxPizza1 = document.getElementById('graficoPizza1').getContext('2d');
+        const ctxPizza2 = document.getElementById('graficoPizza2').getContext('2d');
+        const ctxPizza3 = document.getElementById('graficoPizza3').getContext('2d');
+        const ctxPizza4 = document.getElementById('graficoPizza4').getContext('2d');
+
+        new Chart(ctxPizza1, { type: 'pie', data: dataPizza, options: { responsive: true } });
+        new Chart(ctxPizza2, { type: 'pie', data: dataPizza, options: { responsive: true } });
+        new Chart(ctxPizza3, { type: 'pie', data: dataPizza, options: { responsive: true } });
+        new Chart(ctxPizza4, { type: 'pie', data: dataPizza, options: { responsive: true } });
+    </script>
+</body>
+
+</html>

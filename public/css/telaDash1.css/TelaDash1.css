@@ -1,6 +1,11 @@
+body {
+    background-color: rgba(242, 244, 248, 1); 
+    margin: 0; 
+}
+
 .header {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #ffff;
     padding: 20px 10px;
 }
 
@@ -31,7 +36,7 @@
     float: right;
 }
 
-.AreaKpis{
+.AreaKpis {
     display: flex;
     flex-direction: row;
     margin-top: 2%;
@@ -40,19 +45,25 @@
 
 }
 
-.KPI1, .KPI2, .KPI3, .KPI4{
-    width:400px;
+.KPI1,
+.KPI2,
+.KPI3,
+.KPI4 {
+    width: 400px;
     height: 180px;
-    background-color: blue;
+    background-color: #ffff;
     border-radius: 16px;
 }
 
-.KPI1, .KPI2, .KPI3, .KPI4{
+.KPI1,
+.KPI2,
+.KPI3,
+.KPI4 {
     display: flex;
     flex-direction: row;
 }
 
-.bolaRoxa{
+.bolaRoxa {
     width: 130px;
     height: 130px;
     border-radius: 50%;
@@ -64,12 +75,31 @@
     align-items: center;
 }
 
-img{
-    height: 60px;
-    width: 50px;
+img {
+    height: 55px;
+    width: 45px;
+    color: #ffff;
 }
 
-.AreaTexto{
+.Inundacao {
+    height: 90px;
+    width: 80px;
+    color: #ffff;
+}
+
+.Lixo {
+    height: 80px;
+    width: 70px;
+    color: #ffff;
+}
+
+.Banheiro{
+    height: 90px;
+    width: 80px;
+    color: #ffff;
+}
+
+.AreaTexto {
     display: flex;
     flex-direction: column;
     margin-top: 10%;
@@ -78,7 +108,7 @@ img{
 }
 
 
-.Graficos{
+.Graficos {
 
     display: flex;
     flex-direction: row;
@@ -86,14 +116,15 @@ img{
     margin-top: 2%;
 }
 
-.Grafico1{
+.Grafico1 {
     width: 1058px;
     height: 600px;
-    background-color: green;
+    background-color: #ffff;
     border-radius: 16px;
 }
 
-.AreaGraficoPizza, .AreaGraficoPizza2{
+.AreaGraficoPizza,
+.AreaGraficoPizza2 {
 
     margin-left: 1%;
     display: flex;
@@ -102,11 +133,14 @@ img{
 
 }
 
-.GraficoPizza1, .GraficoPizza2, .GraficoPizza3, .GraficoPizza4{
-    
+.GraficoPizza1,
+.GraficoPizza2,
+.GraficoPizza3,
+.GraficoPizza4 {
+
     width: 300px;
     height: 295px;
-     background-color: aqua;
-     border-radius: 16px;
+    background-color: #ffff;
+    border-radius: 16px;
 
 }
